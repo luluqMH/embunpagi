@@ -1,0 +1,39 @@
+{
+  "name": "embunpagi/embunpagi",
+  "description": "LintasMe Library",
+  "require": {
+    "guzzlehttp/guzzle": "~5.0",
+    "league/climate": "~2.5",
+    "laravel/framework": "4.2.*",
+    "fivefilters/php-readability": "1.*",
+    "mandrill/mandrill": "~1.0",
+    "monolog/monolog": "~1.12",
+    "facebook/php-sdk-v4": "~4.0",
+    "abraham/twitteroauth": "0.4.1",
+    "mockery/mockery": "0.9.*",
+    "erusev/parsedown": "~1.5",
+    "imagine/imagine": "0.6.*",
+    "latte/latte": "~2.2",
+    "nehalvpatel/gfycat-php": "~1.0",
+    "dg/rss-php": "~1.1",
+    "react/react": "0.4.*",
+    "google/apiclient": "1.1.*@dev",
+    "phpoffice/phpexcel": "~1.8",
+    "hellogerard/jobby": "2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.4"
+  },
+  "authors": [
+    {
+      "name": "Luluq Miftakhul Huda",
+      "email": "luluq@lintas.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "embunpagi\\": "src/"
+    }
+  }
+
+}
